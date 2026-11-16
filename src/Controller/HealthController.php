@@ -10,7 +10,6 @@ class HealthController
     #[Route('/health', methods: ['GET'])]
     public function healthCheck(): JsonResponse
     {
-    
         return new JsonResponse(['status' => 'ok']);
     }
 }

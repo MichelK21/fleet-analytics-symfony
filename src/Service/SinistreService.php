@@ -32,7 +32,7 @@ class SinistreService
         foreach ($sinistres as $sinistre) {
             $total += $sinistre['montant'];
         }
-        
+
         return $total;
     }
 }
